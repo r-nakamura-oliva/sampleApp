@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
+import { UserEditComponent } from './conponents/frames/user-edit/user-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent
+    HelloComponent,
+    UserEditComponent
   ],
   imports: [
     BrowserModule,
